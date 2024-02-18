@@ -507,4 +507,67 @@ body {
   #doggerblog .wid {
     width: 80%;
   }
+}
+
+#ourservices {
+  padding: 50px 0;
+}
+#ourservices .wid {
+  width: 60%;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#ourservices h3 {
+  font-size: 20px;
+  color: #c6c6c6;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 30px 50px;
+}
+#ourservices .textbox h2 {
+  margin: 20px 0 0;
+  font-size: 25px;
+  color: #757575;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .textbox .icon {
+  font-size: 60px;
+}
+#ourservices .bigicon i {
+  color: #a2c0be;
+  font-size: 36px;
+  padding: 0 0 20px 20px;
+}
+@media screen and (max-width: 992px) {
+  #ourservices .col-md-4 {
+    width: 50%;
+  }
+  #ourservices h1 {
+    font-size: 30px;
+  }
+  #ourservices h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #ourservices .col-md-4 {
+    width: 100%;
+  }
+  #ourservices .wid {
+    width: 80%;
+  }
+  #ourservices .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #ourservices .textbox {
+    padding: 0 20px 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
