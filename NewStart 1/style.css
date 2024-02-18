@@ -445,4 +445,66 @@ body {
   #questions ul {
     padding-bottom: 40px;
   }
+}
+
+#doggerblog {
+  padding: 40px 0;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#doggerblog h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+}
+#doggerblog .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .textbox h2 {
+  font-size: 22px;
+}
+#doggerblog .textbox h4 {
+  font-size: 18px;
+  color: #8f8686;
+}
+#doggerblog .textbox p, #doggerblog .textbox h4 {
+  margin: 20px 0 0;
+}
+#doggerblog .wid {
+  width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #doggerblog .col-md-6 {
+    width: 100%;
+  }
+  #doggerblog .box {
+    padding-bottom: 50px;
+  }
+  #doggerblog h1 {
+    font-size: 30px;
+  }
+  #doggerblog h3 {
+    font-size: 16px;
+  }
+  #doggerblog .textbox h2 {
+    font-size: 20px;
+  }
+  #doggerblog .textbox h4 {
+    font-size: 16px;
+  }
+  #doggerblog .textbox p {
+    font-size: 16px;
+  }
+  #doggerblog .textbox h5 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #doggerblog .wid {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */
