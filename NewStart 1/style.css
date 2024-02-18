@@ -123,4 +123,86 @@ body {
   #welcome .imgbox {
     margin-bottom: 30px;
   }
+}
+
+#about {
+  padding: 50px 0;
+}
+#about .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#about .textbox h3, #about .textbox p {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 0 0;
+  line-height: 1.6;
+  width: 90%;
+}
+#about .textbox p {
+  width: 90%;
+  font-size: 18px;
+  color: #a8a8a8;
+  line-height: 1.4;
+}
+#about .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#about .textbox .icon {
+  padding: 0 15px 0 0;
+  color: #5e5656;
+}
+#about .textbox h4 {
+  font-size: 20px;
+  color: #949494;
+}
+#about .bigicon i {
+  color: #a2c0be;
+  font-size: 36px;
+  padding: 0 0 20px 20px;
+}
+#about .imgbox {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  #about .col-md-6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #about .col-md-6 .bigicon i {
+    font-size: 26px;
+  }
+  #about .col-md-6 .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #about .col-md-6 .textbox ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  #about .col-md-6 .textbox h1 {
+    font-size: 30px;
+  }
+  #about .col-md-6 .textbox h3 {
+    font-size: 18px;
+  }
+  #about .col-md-6 .textbox p {
+    font-size: 16px;
+  }
+  #about .col-md-6 .textbox h4 {
+    font-size: 16px;
+  }
+  #about .col-md-6 .imgbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+  }
 }/*# sourceMappingURL=style.css.map */
