@@ -37,4 +37,90 @@ body {
     justify-content: center;
     align-items: center;
   }
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 60px;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+  color: #868686;
+}
+#welcome .maintextbox {
+  padding-bottom: 40px;
+}
+#welcome .maintextbox h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+#welcome .maintextbox h3 {
+  color: #868686;
+  margin: 20px 0 40px;
+  font-size: 20px;
+}
+#welcome .bigicon i {
+  color: #a2c0be;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+#welcome .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #a2c0be;
+  color: white;
+}
+#welcome .wid {
+  width: 580px;
+}
+#welcome .txtright {
+  text-align: right;
+}
+@media screen and (max-width: 992px) {
+  #welcome .maintextbox h1 {
+    font-size: 30px;
+  }
+  #welcome .maintextbox h3 {
+    font-size: 18px;
+  }
+  #welcome .textbox {
+    padding: 20px 0;
+  }
+  #welcome .textbox h2 {
+    font-size: 23px;
+  }
+  #welcome .textbox h6 {
+    font-size: 16px;
+  }
+  #welcome .textbox .btn h5 {
+    font-size: 14px;
+  }
+  #welcome .bigicon i {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 776px) {
+  #welcome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #welcome .textbox h2, #welcome .textbox h6 {
+    text-align: start;
+  }
+  #welcome .reversebox {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #welcome .imgbox {
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
