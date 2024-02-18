@@ -1,13 +1,40 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#for {
+  padding: 50px 0;
 }
-
-a:hover {
-  color: black;
+#for .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 10px;
 }
-/*# sourceMappingURL=style.css.map */
+#for .textbox h4 {
+  font-size: 24px;
+  color: #686868;
+}
+#for .imgbox {
+  width: 500px;
+}
+@media screen and (max-width: 992px) {
+  #for .col-md-6 {
+    width: 100%;
+  }
+  #for .textbox h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  #for .textbox h4 {
+    padding: 30px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  #for .imgbox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=style.css.map */
