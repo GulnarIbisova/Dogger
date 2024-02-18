@@ -3,6 +3,10 @@ body {
   font-weight: 500;
 }
 
+.imgbox img {
+  width: 100%;
+}
+
 #for {
   padding: 50px 0;
 }
@@ -204,5 +208,73 @@ body {
     align-items: center;
     justify-content: center;
     width: 60%;
+  }
+}
+
+#trainers {
+  padding: 40px 0;
+}
+#trainers h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+#trainers h3, #trainers h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #a8a8a8;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+#trainers .box {
+  margin: 0 5px;
+}
+#trainers .box .textbox {
+  padding: 15px;
+}
+#trainers .box h2 {
+  font-weight: 300;
+  font-size: 38px;
+  padding: 20px 0 0;
+}
+#trainers .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#trainers .box ul li {
+  margin: 0 10px;
+  background-color: #d4cece;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#trainers .box ul li .icon {
+  margin: -7px;
+}
+#trainers .wid {
+  width: 500px;
+}
+@media screen and (max-width: 992px) {
+  #trainers .col-md-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #trainers .col-md-4 .imgbox {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  #trainers .col-md-4 ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  #trainers .textbox h1 {
+    font-size: 30px;
+  }
+  #trainers .textbox h3 {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=style.css.map */
