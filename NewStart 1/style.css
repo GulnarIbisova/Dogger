@@ -546,6 +546,9 @@ body {
   }
 }
 @media screen and (max-width: 576px) {
+  #ourservices .two {
+    width: 100%;
+  }
   #ourservices .wid {
     width: 80%;
   }
