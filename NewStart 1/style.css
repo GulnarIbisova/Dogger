@@ -252,18 +252,12 @@ body {
   width: 500px;
 }
 @media screen and (max-width: 992px) {
-  #trainers .col-md-4 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  #trainers .col-md-4 .imgbox {
+  #trainers .imgbox {
     text-align: center;
     margin: 0 auto;
     width: 50%;
   }
-  #trainers .col-md-4 ul {
+  #trainers .imgbox ul {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
