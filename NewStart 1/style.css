@@ -23,6 +23,9 @@ body {
   width: 500px;
 }
 @media screen and (max-width: 992px) {
+  #for .three {
+    width: 100%;
+  }
   #for .textbox h1 {
     font-size: 45px;
     text-align: center;
