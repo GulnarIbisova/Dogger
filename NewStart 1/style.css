@@ -338,6 +338,9 @@ body {
   background-color: #708f97;
 }
 @media screen and (max-width: 992px) {
+  #pricing .one {
+    width: 100%;
+  }
   #pricing .bigicon i {
     font-size: 26px;
   }
