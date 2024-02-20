@@ -478,6 +478,9 @@ body {
   width: 580px;
 }
 @media screen and (max-width: 992px) {
+  #doggerblog .four {
+    width: 100%;
+  }
   #doggerblog .box {
     padding-bottom: 50px;
   }
