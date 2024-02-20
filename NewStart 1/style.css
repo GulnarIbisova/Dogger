@@ -538,9 +538,6 @@ body {
   padding: 0 0 20px 20px;
 }
 @media screen and (max-width: 992px) {
-  #ourservices .col-md-4 {
-    width: 50%;
-  }
   #ourservices h1 {
     font-size: 30px;
   }
@@ -549,9 +546,6 @@ body {
   }
 }
 @media screen and (max-width: 576px) {
-  #ourservices .col-md-4 {
-    width: 100%;
-  }
   #ourservices .wid {
     width: 80%;
   }
