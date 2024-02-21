@@ -120,12 +120,13 @@ body {
   #welcome .textbox h2, #welcome .textbox h6 {
     text-align: start;
   }
-  #welcome .reversebox {
+  #welcome .five {
     display: flex;
     flex-direction: column-reverse;
   }
   #welcome .imgbox {
     margin-bottom: 30px;
+    text-align: end;
   }
 }
 
