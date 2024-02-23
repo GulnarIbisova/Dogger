@@ -7,13 +7,10 @@ body {
   width: 100%;
 }
 
-#for {
-  padding: 30px 0;
-}
 #for .textbox h1 {
   font-weight: 700;
   font-size: 60px;
-  margin: 0 0 10px;
+  margin: 0 15px 10px 0;
 }
 #for .textbox h4 {
   font-size: 24px;
@@ -31,11 +28,12 @@ body {
     text-align: center;
   }
   #for .textbox h4 {
-    padding: 20px 0;
+    padding: 5px;
     font-size: 18px;
     text-align: center;
   }
   #for .imgbox {
+    padding: 20px;
     width: 50%;
     display: flex;
     justify-content: center;
