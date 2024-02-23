@@ -8,7 +8,7 @@ body {
 }
 
 #for {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 #for .textbox h1 {
   font-weight: 700;
@@ -31,7 +31,7 @@ body {
     text-align: center;
   }
   #for .textbox h4 {
-    padding: 30px 0;
+    padding: 20px 0;
     font-size: 18px;
     text-align: center;
   }
@@ -84,9 +84,6 @@ body {
 }
 #welcome .wid {
   width: 580px;
-}
-#welcome .txtright {
-  text-align: right;
 }
 @media screen and (max-width: 992px) {
   #welcome .maintextbox h1 {
@@ -253,6 +250,11 @@ body {
 #trainers .wid {
   width: 500px;
 }
+#trainers .bigicon i {
+  font-size: 30px;
+  color: #a2c0be;
+  padding: 0 0 20px 20px;
+}
 @media screen and (max-width: 992px) {
   #trainers .gln {
     width: 100%;
@@ -330,7 +332,7 @@ body {
 }
 #pricing .bigicon i {
   color: #a2c0be;
-  font-size: 36px;
+  font-size: 30px;
   padding: 0 0 20px 20px;
 }
 #pricing .box-two {
@@ -351,10 +353,11 @@ body {
     margin-bottom: 30px;
   }
   #pricing .box h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   #pricing .box h3 {
     font-size: 25px;
+    padding: 7px;
   }
   #pricing .box li h4 {
     font-size: 16px;
@@ -367,6 +370,9 @@ body {
   }
 }
 @media screen and (max-width: 992px) {
+  #pricing .box {
+    padding: 40px;
+  }
   #pricing .box .btn {
     padding: 5px 15px;
   }
@@ -420,7 +426,7 @@ body {
 }
 #questions .bigicon i {
   color: #a2c0be;
-  font-size: 26px;
+  font-size: 30px;
 }
 #questions .imgbox {
   width: 100%;
@@ -475,6 +481,11 @@ body {
 }
 #doggerblog .wid {
   width: 580px;
+}
+#doggerblog .bigicon i {
+  font-size: 30px;
+  color: #a2c0be;
+  padding: 0 0 20px 20px;
 }
 @media screen and (max-width: 992px) {
   #doggerblog .four {
@@ -539,7 +550,7 @@ body {
 }
 #ourservices .bigicon i {
   color: #a2c0be;
-  font-size: 36px;
+  font-size: 30px;
   padding: 0 0 20px 20px;
 }
 @media screen and (max-width: 992px) {
